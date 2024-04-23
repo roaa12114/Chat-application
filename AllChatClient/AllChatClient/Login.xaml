@@ -1,0 +1,209 @@
+﻿<Page x:Class="AllChatClient.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AllChatClient"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1000"
+      Title="Login">
+
+    <Grid>
+        <Border CornerRadius="15"
+            BorderThickness="5">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#1b1448" Offset="0"/>
+                    <GradientStop Color="CadetBlue" Offset="0.75"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#1b1448" Offset="0.0"/>
+                    <GradientStop Color="CadetBlue" Offset="0.75"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="5"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="LOG IN"
+                               Foreground="DarkGray"
+                               FontSize="32"
+                               FontFamily="Montserrat"
+                               Grid.Column="0"
+                               VerticalAlignment="Center"
+                               Margin="10,0,0,0"/>
+                    
+                    <Button x:Name="btnClose"                          
+                            BorderThickness="0"
+                            Content="X"
+                            Foreground="White"
+                            FontSize="30"
+                            FontFamily="Montserrat"
+                            Cursor="Hand"
+                            Grid.Column="1"
+                            Click="btnClose_Click" Grid.ColumnSpan="2" Margin="0,0,13,0">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#DA34AE"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#C62DAE"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="32" Height="32"
+                                        CornerRadius="9"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </Grid>
+
+                <StackPanel VerticalAlignment="Center" Grid.Row="1">
+                    <TextBlock Text="Let's Chat" 
+                       HorizontalAlignment="Center" 
+                       FontSize="50" 
+                       FontFamily="Helvetica"
+                       Foreground="WhiteSmoke"
+                       FontWeight="Bold"
+                       />
+                    <Image Source="/Resources/chat3.png"
+                   Width="200"/>
+
+                </StackPanel>
+                <Grid Grid.Row="2">
+                    <TextBlock Text="UserName: "
+                       VerticalAlignment="Top"
+                       HorizontalAlignment="Left" 
+                       FontSize="32" Margin="250,10,0,0"
+                       Foreground="WhiteSmoke"
+                       />
+                    <TextBlock Text="Password: "
+                       VerticalAlignment="Top"
+                       HorizontalAlignment="Left" 
+                       FontSize="32" Margin="266,91,0,0"
+                       Foreground="WhiteSmoke"
+                       />
+                    <TextBox x:Name="UsernameTextBox"
+                     Margin="439,6,0,0"
+                     Text="Enter Username"
+                     Background="Transparent"                     
+                     HorizontalAlignment="Left" 
+                     VerticalAlignment="Top" 
+                     Width="400" FontSize="36"
+                     Opacity="0.5" PreviewMouseLeftButtonDown="usernameTextBoxClicked"
+                     />
+
+                    <Border Width="400" 
+                    Height="3" 
+                    Margin="439,55,0,0"
+                    Background="Black"
+                    Opacity="0.5" 
+                    HorizontalAlignment="Left" VerticalAlignment="Top"
+                    />
+                    <PasswordBox x:Name="PasswordTextBox"
+                         Margin="439,87,0,0"
+                         Password="123456" 
+                         Background="Transparent"
+                         HorizontalAlignment="Left" 
+                         VerticalAlignment="Top" 
+                         Width="400" FontSize="36"
+                         Opacity="0.5" PreviewMouseLeftButtonDown="passwordTextBoxClicked"
+                         />
+                    <Border Width="400" 
+                    Height="3" 
+                    Margin="439,135,0,0"
+                    Background="Black"
+                    Opacity="0.5" 
+                    HorizontalAlignment="Left" VerticalAlignment="Top"
+                    />
+                    <Button x:Name="LoginButton"
+                    Click="loginButtonClicked"
+                    Content=" Login "
+                    Foreground="WhiteSmoke"
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Top"
+                    Margin="266,180,0,0" FontSize="36" Height="60" 
+                    >
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#1b1448"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#1b1448"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="180" Height="70"
+                                        CornerRadius="20"
+                                        Background="{TemplateBinding Background}" Margin="0,0,0,-34">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    <Button x:Name="RegisterButton"
+                    Click="registerButtonClicked" 
+                    Content=" Register "
+                    Foreground="WhiteSmoke"
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Top"
+                    Margin="564,180,0,0" FontSize="36" Height="60">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#1b1448"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#1b1448"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="180" Height="70"
+                                        CornerRadius="20"
+                                        Background="{TemplateBinding Background}" Margin="0,0,0,-31">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    <TextBlock x:Name="MessageTextBox"
+                   Text=" "
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Top"
+                   Margin="0,260,0,0" FontSize="36" FontWeight="Bold"
+                   Foreground="Green"/>
+
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

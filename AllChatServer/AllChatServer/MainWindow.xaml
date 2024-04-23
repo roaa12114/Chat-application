@@ -1,0 +1,88 @@
+﻿<Window x:Class="AllChatServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AllChatServer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1000"
+        Background="Transparent" 
+        ResizeMode ="NoResize"
+        WindowStyle="None">
+    <Grid>
+        <Border CornerRadius="15"
+            BorderThickness="5">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#1b1448" Offset="0"/>
+                    <GradientStop Color="CadetBlue" Offset="0.75"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#1b1448" Offset="0.0"/>
+                    <GradientStop Color="CadetBlue" Offset="0.75"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Button x:Name="startServerButton"
+                Content=" Start "
+                Foreground="WhiteSmoke"        
+                HorizontalAlignment="Left" Margin="560,597,0,0" VerticalAlignment="Top" FontSize="36" Click="startServerButtonClicked">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="#1b1448"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#1b1448"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Width="180" Height="70"
+                                        CornerRadius="20"
+                                        Background="{TemplateBinding Background}" Margin="0,0,0,-34">
+                                <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button x:Name="Button"
+                Content =" Stop " 
+                Foreground="WhiteSmoke"        
+                HorizontalAlignment="Left" Margin="776,597,0,0" VerticalAlignment="Top" FontSize="36" Click="stopButtonClicked">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="#1b1448"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#1b1448"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Width="180" Height="70"
+                                        CornerRadius="20"
+                                        Background="{TemplateBinding Background}" Margin="0,0,0,-34">
+                                <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <TextBox  x:Name="serverTextBox"
+                  Text=""
+                  Background="Transparent"
+                  BorderBrush="White"
+                  BorderThickness="5"
+                  HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="900" FontSize="30" Height="500"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

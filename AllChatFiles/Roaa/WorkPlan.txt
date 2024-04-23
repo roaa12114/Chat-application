@@ -1,0 +1,9 @@
+Keep track of family's emotion
+create a network and add friends to keep track of their emotions.
+Bar graph to depict emotions.
+
+Pic before and pic after a video/game/anything so that you get to know which stuff you like
+Can be used to send statistics to other companies to improve somethings on games
+or youtubers to improve upon videos.
+
+Automate liking posts/videos on youtube or insta using facial recognition.(Reaction feature)

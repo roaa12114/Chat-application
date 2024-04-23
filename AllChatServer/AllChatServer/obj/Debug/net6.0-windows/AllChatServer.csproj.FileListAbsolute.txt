@@ -1,0 +1,54 @@
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\bin\Debug\net6.0-windows\AllChatServer.exe
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\bin\Debug\net6.0-windows\AllChatServer.deps.json
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\bin\Debug\net6.0-windows\AllChatServer.runtimeconfig.json
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\bin\Debug\net6.0-windows\AllChatServer.dll
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\bin\Debug\net6.0-windows\AllChatServer.pdb
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.csproj.AssemblyReference.cache
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\App.g.cs
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer_MarkupCompile.cache
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer_MarkupCompile.lref
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.g.resources
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.AssemblyInfoInputs.cache
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.AssemblyInfo.cs
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.csproj.CoreCompileInputs.cache
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.dll
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\refint\AllChatServer.dll
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.pdb
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.genruntimeconfig.cache
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\ref\AllChatServer.dll
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\bin\Debug\net6.0-windows\SimpleTCP.dll
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\Window1.baml
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.csproj.CopyComplete
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\ButtonModification.baml
+C:\Pranay\Projects\C#Projects\AllChat\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\App.baml
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\bin\Debug\net6.0-windows\AllChatServer.exe
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\bin\Debug\net6.0-windows\AllChatServer.deps.json
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\bin\Debug\net6.0-windows\AllChatServer.runtimeconfig.json
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\bin\Debug\net6.0-windows\AllChatServer.dll
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\bin\Debug\net6.0-windows\AllChatServer.pdb
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\bin\Debug\net6.0-windows\SimpleTCP.dll
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.csproj.AssemblyReference.cache
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\ButtonModification.baml
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\MainWindow.g.cs
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\Window1.g.cs
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\App.g.cs
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer_MarkupCompile.cache
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer_MarkupCompile.lref
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\App.baml
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\MainWindow.baml
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\Window1.baml
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.g.resources
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.GeneratedMSBuildEditorConfig.editorconfig
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.AssemblyInfoInputs.cache
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.AssemblyInfo.cs
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.csproj.CoreCompileInputs.cache
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.csproj.CopyComplete
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.dll
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\refint\AllChatServer.dll
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.pdb
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\AllChatServer.genruntimeconfig.cache
+F:\semester 4\telecommunication\AllChat-main\AllChatServer\AllChatServer\obj\Debug\net6.0-windows\ref\AllChatServer.dll

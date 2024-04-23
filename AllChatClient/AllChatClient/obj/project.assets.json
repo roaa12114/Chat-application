@@ -1,0 +1,145 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Microsoft.Win32/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Win32.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Win32.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SimpleTCP/1.0.24": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SimpleTCP.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SimpleTCP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Win32/2.0.1": {
+      "sha512": "V1I3Mvj0g6YFoVywl0uoPh7fJ4y7xTewBGrW9FN70dr9LruFnC4rJ/bJ2wxIvZyeVrsj2JaqxvkuSw9fhk9UKA==",
+      "type": "package",
+      "path": "microsoft.win32/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Win32.dll",
+        "lib/net40/Microsoft.Win32.xml",
+        "lib/net5.0/Microsoft.Win32.dll",
+        "lib/net5.0/Microsoft.Win32.xml",
+        "microsoft.win32.2.0.1.nupkg.sha512",
+        "microsoft.win32.nuspec"
+      ]
+    },
+    "SimpleTCP/1.0.24": {
+      "sha512": "mQEKbXruksWRmKeUuID7S+Ltg092EiWXwnomnVYohkY+/rTRiIp4PUTE/bdBEj6oh1gIt0lp4l0GBlwtOhqU5w==",
+      "type": "package",
+      "path": "simpletcp/1.0.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/SimpleTCP.dll",
+        "simpletcp.1.0.24.nupkg.sha512",
+        "simpletcp.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Microsoft.Win32 >= 2.0.1",
+      "SimpleTCP >= 1.0.24"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Laptop Shop\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\semester 4\\telecommunication\\AllChat-main\\AllChatClient\\AllChatClient\\AllChatClient.csproj",
+      "projectName": "AllChatClient",
+      "projectPath": "F:\\semester 4\\telecommunication\\AllChat-main\\AllChatClient\\AllChatClient\\AllChatClient.csproj",
+      "packagesPath": "C:\\Users\\Laptop Shop\\.nuget\\packages\\",
+      "outputPath": "F:\\semester 4\\telecommunication\\AllChat-main\\AllChatClient\\AllChatClient\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Laptop Shop\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Microsoft.Win32": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
+          "SimpleTCP": {
+            "target": "Package",
+            "version": "[1.0.24, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SimpleTCP 1.0.24' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "SimpleTCP",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
